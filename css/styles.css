@@ -185,3 +185,17 @@
 .nav-link{
     font-size: var(--nav-link-font-size);
 }
+
+.custom-toggler {
+    padding: 0; /* Elimina el padding predeterminado */
+    background-color: transparent; /* Opcional: hace el fondo transparente */
+    display: flex; /* Utiliza flexbox para alinear el contenido */
+    justify-content: center; /* Alinea horizontalmente */
+    width: 40px; /* Ajusta el ancho según tus necesidades */
+    height: 40px; /* Ajusta la altura según tus necesidades */
+}
+
+.toggler-icon {
+    font-size: 2rem;
+    color: var(--bs-black);
+}
